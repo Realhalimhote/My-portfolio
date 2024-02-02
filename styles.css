@@ -135,4 +135,5 @@ body::after {
     background: url('background-pattern.jpg'); /* replace with your background image */
     opacity: 0.05;
     pointer-events: none;
+    background-size: contain;
 }
