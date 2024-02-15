@@ -1,0 +1,67 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif; /* Simple and readable font */
+    background-color: #f6f6f6; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Question (h3) styles */
+h3 {
+    color: #333; /* Dark gray color for headings */
+    font-size: 24px; /* Larger font size for emphasis */
+    margin-bottom: 15px; /* Some spacing for separation */
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555; /* Slightly darker gray for labels */
+    font-size: 18px; /* Font size for labels */
+}
+
+/* Radio button styles */
+input[type="radio"] {
+    margin-right: 5px; /* Add some space between radio buttons */
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    section {
+        padding: 15px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    label {
+        font-size: 16px;
+    }
+}
+#submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  #submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
